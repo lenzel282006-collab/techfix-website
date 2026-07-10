@@ -4,7 +4,6 @@ body {
   background: #f5f7fa;
 }
 
-/* Header */
 header {
   background: linear-gradient(to right, #1e3c72, #2a5298);
   color: white;
@@ -12,7 +11,6 @@ header {
   padding: 20px;
 }
 
-/* Navigation */
 nav ul {
   list-style: none;
   display: flex;
@@ -31,43 +29,23 @@ nav ul li a {
   padding: 14px;
   color: white;
   text-decoration: none;
-  transition: background 0.3s;
 }
 
 nav ul li a:hover {
   background: #444;
 }
 
-/* Main Content */
 main {
   padding: 30px;
   text-align: center;
 }
 
-main h2 {
-  font-size: 28px;
-  margin-bottom: 10px;
-}
-
-main p {
-  color: #555;
-  font-size: 16px;
-}
-
-/* Image Styling */
 img {
   width: 300px;
   border-radius: 12px;
   margin-top: 15px;
-  transition: transform 0.3s, box-shadow 0.3s;
 }
 
-img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-}
-
-/* Footer */
 footer {
   background: #222;
   color: white;
