@@ -1,23 +1,24 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
+  background: #f5f7fa;
 }
 
 /* Header */
 header {
-  background: #333;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
   color: white;
   text-align: center;
-  padding: 15px;
+  padding: 20px;
 }
 
 /* Navigation */
 nav ul {
-  list-style: none;        /* removes bullets */
-  display: flex;           /* horizontal */
+  list-style: none;
+  display: flex;
   margin: 0;
   padding: 0;
-  background: #555;
+  background: #222;
 }
 
 nav ul li {
@@ -27,30 +28,50 @@ nav ul li {
 nav ul li a {
   display: block;
   text-align: center;
-  padding: 12px;
+  padding: 14px;
   color: white;
   text-decoration: none;
+  transition: background 0.3s;
 }
 
 nav ul li a:hover {
-  background: #777;
+  background: #444;
 }
 
-/* Main */
+/* Main Content */
 main {
-  padding: 20px;
+  padding: 30px;
+  text-align: center;
+}
+
+main h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+main p {
+  color: #555;
+  font-size: 16px;
+}
+
+/* Image Styling */
+img {
+  width: 300px;
+  border-radius: 12px;
+  margin-top: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
 /* Footer */
 footer {
-  background: #333;
+  background: #222;
   color: white;
   text-align: center;
-  padding: 10px;
-}
-
-/* Image fix */
-img {
-  width: 300px;
-  border-radius: 10px;
+  padding: 12px;
+  margin-top: 30px;
 }
